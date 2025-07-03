@@ -8,6 +8,7 @@ packages:
   - kitty
   - sddm
   - nautilus
+  - swww
   
 services:
   - dbus
