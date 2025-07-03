@@ -1,0 +1,11 @@
+impl: 'https://github.com/youruser/your-tracks/raw/main'
+track: 'blendos-base'
+
+packages:
+  - niri
+  - waybar
+  - mako
+  - kitty
+
+services:
+  - dbus
