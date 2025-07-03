@@ -6,6 +6,8 @@ packages:
   - waybar
   - mako
   - kitty
+  - sddm
   
 services:
   - dbus
+  - sddm
