@@ -6,6 +6,6 @@ packages:
   - waybar
   - mako
   - kitty
-
+  
 services:
   - dbus
