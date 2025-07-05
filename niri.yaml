@@ -12,9 +12,14 @@ packages:
   - 'polkit-gnome'
   - 'waydroid'
   - 'waydroid-image'
-  
+  - 'noto-fonts-cjk'
+  - 'noto-fonts'
+  - 'noto-fonts-emoji'
+  - 'sddm'
+  - 'kate'
+
 services:
-  - 'greetd'
+  - 'sddm'
 
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
