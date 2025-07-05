@@ -2,13 +2,14 @@ impl: 'https://github.com/youruser/your-tracks/raw/main'
 track: 'blendos-base'
 
 packages:
-  - niri
-  - waybar
-  - mako
+  - 'niri'
+  - 'waybar'
+  - 'mako'
   - kitty
   - sddm
   - nautilus
   - swww
+  - 'xdg-desktop-portal-gnome'
   
 services:
   - dbus
