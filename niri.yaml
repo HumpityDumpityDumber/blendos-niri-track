@@ -17,6 +17,7 @@ packages:
   - 'noto-fonts-emoji'
   - 'sddm'
   - 'kate'
+  - 'plymouth'
 
 services:
   - 'sddm'
