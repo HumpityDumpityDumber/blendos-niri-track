@@ -5,12 +5,16 @@ packages:
   - 'niri'
   - 'waybar'
   - 'mako'
-  - kitty
-  - sddm
-  - nautilus
-  - swww
+  - 'kitty'
+  - 'nautilus'
+  - 'swww'
   - 'xdg-desktop-portal-gnome'
+  - 'polkit-gnome'
+  - 'waydroid'
+  - 'waydroid-image'
   
 services:
-  - dbus
-  - sddm
+  - 'greetd'
+
+commands:
+  - 'rm -f /usr/share/applications/Waydroid.desktop'
