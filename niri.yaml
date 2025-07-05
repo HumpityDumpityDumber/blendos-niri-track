@@ -23,9 +23,3 @@ packages:
 services:
   - 'sddm'
 
-commands:
-  - 'rm -f /usr/share/applications/Waydroid.desktop'
-  - 'sudo sed -i "/^\[Daemon\]/a ShowDelay=0" /etc/plymouth/plymouthd.conf'
-  - 'sudo sed -i "/^HOOKS=/ s/)$/ plymouth)/" /etc/mkinitcpio.conf'
-  - 'sudo plymouth-set-default-theme -R bgrt'
-  - "bash -c 'cd \"$HOME/knees-dots-installer/GRUB-Theme/Inoue Takina\" && ./install.sh'"
